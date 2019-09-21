@@ -3,8 +3,5 @@ def square_array(array)
   array.each{|numbers| 
     newArray << numbers*numbers
     puts newArray}
-
-
-  
-  
-  end
+end
+square_array([1,2,3])
