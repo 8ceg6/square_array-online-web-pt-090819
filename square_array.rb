@@ -3,7 +3,7 @@ def square_array(array)
     array.each(){ |numbers|
          newArray << numbers **2
     }
-    puts newArray
+    returns newArray
 end 
 
 square_array([1,2,3])
