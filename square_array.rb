@@ -1,9 +1,10 @@
 def square_array(array)
   newArray =[]
   array.each{|numbers| 
-    puts #{numbers}
+    newArray<< numbers*numbers}
+    puts newArray
     
-  end
+
   
   
   end
